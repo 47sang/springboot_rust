@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+# 开发环境配置
+server:
+  port: 9991
+  servlet:
+    # 应用的访问路径
+    context-path: /
